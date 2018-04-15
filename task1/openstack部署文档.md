@@ -24,7 +24,7 @@ index-url = http://pypi.douban.com/simple/
 trusted-host = pypi.douban.com
 ```
 
-< img src="https://img-blog.csdn.net/20180415181946184?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JlYXNoYXBlcl8=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70", width=90% />
+< img src="https://img-blog.csdn.net/20180415181946184?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JlYXNoYXBlcl8=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" />
 
 ##### 3. 下载并安装epel
 ```
