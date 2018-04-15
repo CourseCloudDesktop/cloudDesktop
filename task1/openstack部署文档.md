@@ -1,3 +1,4 @@
+# 部署文档
 ### 部署步骤
 #####  1. 将slinux、iptables关闭
 
@@ -6,6 +7,7 @@
 # systemctl disable firewalld.service
 # setenforce 0
 ```
+
 ##### 2. 使用豆瓣pip源
 
 ```
@@ -23,18 +25,19 @@ index-url = http://pypi.douban.com/simple/
 [install]
 trusted-host = pypi.douban.com
 ```
-![这里写图片描述](https://img-blog.csdn.net/20180415181946184?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JlYXNoYXBlcl8=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+
+<img src="https://img-blog.csdn.net/20180415181946184?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JlYXNoYXBlcl8=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" width=90%>
 
 ##### 3. 下载并安装epel
+
 ```
 # wget http://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 # rpm -ivh epel-release-latest-7.noarch.rpm
 # yum repolist
 ```
-![这里写图片描述](https://img-blog.csdn.net/20180415182606115?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JlYXNoYXBlcl8=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
 
-![这里写图片描述](https://img-blog.csdn.net/20180415183228872?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JlYXNoYXBlcl8=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
-
+<img src="https://img-blog.csdn.net/20180415182606115?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JlYXNoYXBlcl8=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" width=70%>
+<img src="https://img-blog.csdn.net/20180415183228872?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JlYXNoYXBlcl8=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" width=75%>
 ##### 4. 安装必要的工具包
 
 ```
@@ -50,6 +53,7 @@ trusted-host = pypi.douban.com
 ```
 # yum update
 ```
+
 ##### 6. 添加stack用户，分配权限
 
 ```
@@ -58,7 +62,7 @@ trusted-host = pypi.douban.com
 # sudo su - stack
 ```
 
-![这里写图片描述](https://img-blog.csdn.net/20180415183521352?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JlYXNoYXBlcl8=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+<img src="https://img-blog.csdn.net/20180415183521352?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JlYXNoYXBlcl8=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" width=80%>
 
 ##### 7. 克隆devstack
 
@@ -66,6 +70,7 @@ trusted-host = pypi.douban.com
 # git clone https://git.openstack.org/openstack-dev/devstack
 # cd devstack
 ```
+
 ##### 8. 创建local.conf文件，写入如下内容（密码替换成自己的）
 
 ```
@@ -123,7 +128,7 @@ wget：无法解析主机地址，这就能看出是DNS服务器的问题。
  1. 进入root
  2. 打开`/etc/resolv.conf`
  
- ![这里写图片描述](https://img-blog.csdn.net/20180415211612459?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JlYXNoYXBlcl8=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+<img src="https://img-blog.csdn.net/20180415211612459?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JlYXNoYXBlcl8=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" width=60%>
 
  3. 添加以下内容：
  
