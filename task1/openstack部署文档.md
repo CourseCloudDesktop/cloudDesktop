@@ -33,9 +33,9 @@ trusted-host = pypi.douban.com
 # yum repolist
 ```
 
-<img src="https://img-blog.csdn.net/20180415182606115?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JlYXNoYXBlcl8=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70", width=70%>
+< img src="https://img-blog.csdn.net/20180415182606115?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JlYXNoYXBlcl8=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70", width=70% />
 
-<img src="https://img-blog.csdn.net/20180415183228872?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JlYXNoYXBlcl8=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70", width=75%>
+< img src="https://img-blog.csdn.net/20180415183228872?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JlYXNoYXBlcl8=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70", width=75% />
 
 ##### 4. 安装必要的工具包
 
@@ -125,7 +125,7 @@ wget：无法解析主机地址，这就能看出是DNS服务器的问题。
  1. 进入root
  2. 打开`/etc/resolv.conf`
  
-<img src="https://img-blog.csdn.net/20180415211612459?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JlYXNoYXBlcl8=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70", width=60%>
+< img src="https://img-blog.csdn.net/20180415211612459?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JlYXNoYXBlcl8=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70", width=60% />
 
  3. 添加以下内容：
  
