@@ -13,6 +13,7 @@
 # vi ~/.pip/pip.conf
 ```
 ![这里写图片描述](https://img-blog.csdn.net/20180415181534686?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JlYXNoYXBlcl8=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+
 在`pip.conf`中写入如下内容：
 
 ```
@@ -31,6 +32,7 @@ trusted-host = pypi.douban.com
 ```
 <img src="https://img-blog.csdn.net/20180415182606115?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JlYXNoYXBlcl8=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70", width=70%>
 <img src="https://img-blog.csdn.net/20180415183228872?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JlYXNoYXBlcl8=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70", width=75%>
+
 ##### 4. 安装必要的工具包
 
 ```
@@ -53,7 +55,9 @@ trusted-host = pypi.douban.com
 # sudo tee <<<"stack ALL=(ALL) NOPASSWD: ALL" /etc/sudoers
 # sudo su - stack
 ```
+
 <img src="https://img-blog.csdn.net/20180415183521352?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JlYXNoYXBlcl8=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70", width=80%>
+
 ##### 7. 克隆devstack
 
 ```
@@ -71,6 +75,7 @@ SERVICE_PASSWORD=$ADMIN_PASSWORD
 
 enable_plugin barbican https://git.openstack.org/openstack/barbican
 ```
+
 ##### 9. 开始安装
 
 ```
