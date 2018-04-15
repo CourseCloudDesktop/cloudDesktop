@@ -1,0 +1,20 @@
+# OpenStack部署进度报告
+
+## 1. 是否已经部署完毕
+
+尚未部署完成
+
+## 2. 环境部署程度
+
+- 已安装好MySQL数据库
+
+## 3. 部署中遇到的问题与解决方法
+
+- **英文教程看不懂**
+
+  - 官方中文教程感觉阅读起来有点不通顺，最后选择读一些相关博客
+  
+## 4. 参考链接
+- [官方安装教程（最新版本）](https://docs.openstack.org/install-guide/)
+- [其他人的部署博客](https://www.cnblogs.com/shhnwangjian/p/6358993.html?utm_source=itdadao&utm_medium=referral)
+- [使用fuel的教程(好像TA不建议使用脚本)](http://www.jb51.net/article/97028.htm)
