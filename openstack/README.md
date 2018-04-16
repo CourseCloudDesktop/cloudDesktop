@@ -1,1 +1,3 @@
-这里会一个vinzor-openstack集成安装脚本，附上使用的部署文档
+这里附上vinzor-openstack集成安装脚本使用的部署文档
+vinzor-openstack集成安装脚本在群上可以下载，附上一个测试的镜像cirros
+
