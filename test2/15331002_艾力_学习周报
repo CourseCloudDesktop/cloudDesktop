@@ -1,10 +1,10 @@
 
 ## 1.本周具体工作计划
 
-* 成功安装openstack，能够成功打开dashboard
-* 成功搭建openstack环境后，通过dashboard登录
-* 登陆后查看系统信息
-* 测试网络配置是否正确
+1.成功安装openstack，能够成功打开dashboard
+2.成功搭建openstack环境后，通过dashboard登录
+3. 登陆后查看系统信息
+4.测试网络配置是否正确
 	
 ## 2.本周主要工作内容
 
