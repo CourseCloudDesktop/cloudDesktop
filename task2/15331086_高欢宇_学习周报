@@ -1,0 +1,29 @@
+# 学习周报
+
+
+
+---
+
+## 1.本周具体工作计划
+
+ - 用集成脚本安装openstack，能够成功打开dashboard
+ - 制作镜像
+ - 虚拟网络
+
+
+----------
+
+
+## 2.本周完成工作
+配置网络环境
+![配置网络][1]
+配置完成后分别测试ping网关和外网能否ping通
+![ping通][2]
+之后按照部署文档一步步的配置，选择的是neutron模式单节点。
+到55%的时候安装失败了。还未解决这个问题。
+![此处输入图片的描述][3]
+
+
+  [1]: https://raw.githubusercontent.com/flowerfanfan/Markdown-Picture/master/task2/%E9%85%8D%E7%BD%AE%E7%BD%91%E7%BB%9C.png
+  [2]: https://ws1.sinaimg.cn/large/8e9b1b29gy1frfmsxxz3ij20i10a7ac1.jpg
+  [3]: https://raw.githubusercontent.com/flowerfanfan/Markdown-Picture/master/task2/%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%85%8D%E7%BD%AE.png
