@@ -1,4 +1,4 @@
-# OK,i need to install Openstack again because Vindesk not support CentOS!
+# OK,i need to install Openstack again because Vindesk do not support CentOS!
 # I thought automatic installation will be a good chooise to reduce my workload, but...
 # 1 Environment
 -	VMware 10.0.7
