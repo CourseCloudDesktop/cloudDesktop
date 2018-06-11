@@ -43,7 +43,7 @@ Commanded “cp source.list sources.list.bak” to back up the original source
   ```  
   (https://mirrors.tuna.tsinghua.edu.cn/help/ubuntu/)
 - Translated source.list to virtual machine through FileZilla(make sure the openssh server opening)
-  ![](translate_source.list.png)
+  ![](images/translate_source.list.png)
 - Commanded ”mv source.list /etc/apt/source.list” to cover the original file  
   Commanded ”sudo apt-get update” to update the source
 ## 2.5 Download pip
@@ -98,6 +98,8 @@ Commanded “cp source.list sources.list.bak” to back up the original source
 - Commanded “cd devstack/”
 - Commanded “./stack.sh” to begin install
 - The time of installation during 1h to Nh depends on your network speed 
+- login Openstack through Firefox  
+  ![](images/2018-06-11_17-56-02.png)
 ## 4.2 Problems
 - You will meet many problems during installing, many cased by network
 - Some time, repeated run “./stack.sh” can solve problem
