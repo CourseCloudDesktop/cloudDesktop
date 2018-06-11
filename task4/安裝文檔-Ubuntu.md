@@ -41,7 +41,7 @@ Commanded “cp source.list sources.list.bak” to back up the original source
   ```  
   (https://mirrors.tuna.tsinghua.edu.cn/help/ubuntu/)
 - Translated source.list to virtual machine through FileZilla(make sure the openssh server opening)
-  ![](images/login_instance.png)
+  ![](translate_source.list.png)
 - Commanded ”mv source.list /etc/apt/source.list” to cover the original file  
   Commanded ”sudo apt-get update” to update the source
 ## 2.5 Download pip
@@ -60,7 +60,7 @@ Commanded “cp source.list sources.list.bak” to back up the original source
 ## 2.8 Created user “stack”
 - Commanded “sudo useradd -s /bin/bash -d /opt/stack -m stack” to create a separate user “stack”
 Commanded “echo "stack ALL=(ALL) NOPASSWD: ALL" | sudo tee /etc/sudoers.d/stack” to give “stack” sudo privileges
-# 3.Download and configurate Devstack
+# 3 Download and configurate Devstack
 ## 3.1 Download devstack
 - Commanded “sudo su - stack” change to user “stack”  
   Commanded “git clone https://git.openstack.org/openstack-dev/devstack -b stable/pike” to down devstack.
@@ -91,7 +91,7 @@ Commanded “echo "stack ALL=(ALL) NOPASSWD: ALL" | sudo tee /etc/sudoers.d/stac
   to    “GIT_BASE=${GIT_BASE:-https://git.openstack.org}”
   ```
  
-# 4.Installing
+# 4 Installing
 ## 4.1 installing
 - Commanded “cd devstack/”
 - Commanded “./stack.sh” to begin install
