@@ -1,8 +1,10 @@
+# OK,i need to install Openstack again because the Vindesk not support CentOS!
+# I thought automatic installation will be a good chooise to reduce my workload, but...
 # 1 Environment
 -	VMware 10.0.7
 -	System:ubuntu-16.04.3-server-amd64.iso  
 (http://old-releases.ubuntu.com/releases/16.04.3/ubuntu-16.04.3-server-amd64.iso)
-# 2 Before installing
+# 2 Before installation
 ## 2.1 Stop the firewall
 - Commanded “sudo ufw disable” to stop firewall
 - It is suitable that stop firewall to prevent it stop some operations when we installation and using Devstack/Openstack.
@@ -58,8 +60,8 @@ Commanded “cp source.list sources.list.bak” to back up the original source
 ## 2.7 Download git
 - Commanded ”sudo apt-get install git”
 ## 2.8 Created user “stack”
-- Commanded “sudo useradd -s /bin/bash -d /opt/stack -m stack” to create a separate user “stack”
-Commanded “echo "stack ALL=(ALL) NOPASSWD: ALL" | sudo tee /etc/sudoers.d/stack” to give “stack” sudo privileges
+- Commanded “sudo useradd -s /bin/bash -d /opt/stack -m stack” to create a separate user “stack”  
+  Commanded “echo "stack ALL=(ALL) NOPASSWD: ALL" | sudo tee /etc/sudoers.d/stack” to give “stack” sudo privileges
 # 3 Download and configurate Devstack
 ## 3.1 Download devstack
 - Commanded “sudo su - stack” change to user “stack”  
@@ -91,15 +93,15 @@ Commanded “echo "stack ALL=(ALL) NOPASSWD: ALL" | sudo tee /etc/sudoers.d/stac
   to    “GIT_BASE=${GIT_BASE:-https://git.openstack.org}”
   ```
  
-# 4 Installing
-## 4.1 installing
+# 4 Installation
+## 4.1 Installation
 - Commanded “cd devstack/”
 - Commanded “./stack.sh” to begin install
-- The time of installing during 1h to Nh depends on your network speed 
+- The time of installation during 1h to Nh depends on your network speed 
 ## 4.2 Problems
 - You will meet many problems during installing, many cased by network
 - Some time, repeated run “./stack.sh” can solve problem
-- “git call failed” is a frequent error during installing, repeat run “./stack.sh”
+- “git call failed” is a frequent error during installation, repeat run “./stack.sh”
 - Deleted all directory under user “stack” and redownload devstack is another way to solve problem
 - Good luck and fuck devstack!!
 
