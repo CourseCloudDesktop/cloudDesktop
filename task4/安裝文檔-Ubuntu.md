@@ -105,5 +105,5 @@ Commanded “cp source.list sources.list.bak” to back up the original source
 - Some time, repeated run “./stack.sh” can solve problem
 - “git call failed” is a frequent error during installation, repeat run “./stack.sh”
 - Deleted all directory under user “stack” and redownload devstack is another way to solve problem
-- Good luck and fuck devstack!!
+- Good luck and f**k devstack!!
 
